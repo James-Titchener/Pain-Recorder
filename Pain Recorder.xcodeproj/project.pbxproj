@@ -13,6 +13,8 @@
 		04E50313229CB536000F9692 /* Pain_Recorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E50311229CB536000F9692 /* Pain_Recorder.xcdatamodeld */; };
 		04E50315229CB539000F9692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E50314229CB539000F9692 /* Assets.xcassets */; };
 		04E50318229CB539000F9692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E50316229CB539000F9692 /* LaunchScreen.storyboard */; };
+		04E5034D22A037E6000F9692 /* PainButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5034C22A037E6000F9692 /* PainButtonViewController.swift */; };
+		04E5034F22A038B8000F9692 /* PainPointsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5034E22A038B8000F9692 /* PainPointsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04E50314229CB539000F9692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E50317229CB539000F9692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E50319229CB539000F9692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E5034C22A037E6000F9692 /* PainButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainButtonViewController.swift; sourceTree = "<group>"; };
+		04E5034E22A038B8000F9692 /* PainPointsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainPointsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				04E5030A229CB536000F9692 /* AppDelegate.swift */,
 				04E5030C229CB536000F9692 /* ViewController.swift */,
 				04E5030E229CB536000F9692 /* Main.storyboard */,
+				04E5034E22A038B8000F9692 /* PainPointsTableViewController.swift */,
+				04E5034C22A037E6000F9692 /* PainButtonViewController.swift */,
 				04E50314229CB539000F9692 /* Assets.xcassets */,
 				04E50316229CB539000F9692 /* LaunchScreen.storyboard */,
 				04E50319229CB539000F9692 /* Info.plist */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E50313229CB536000F9692 /* Pain_Recorder.xcdatamodeld in Sources */,
+				04E5034F22A038B8000F9692 /* PainPointsTableViewController.swift in Sources */,
+				04E5034D22A037E6000F9692 /* PainButtonViewController.swift in Sources */,
 				04E5030D229CB536000F9692 /* ViewController.swift in Sources */,
 				04E5030B229CB536000F9692 /* AppDelegate.swift in Sources */,
 			);
