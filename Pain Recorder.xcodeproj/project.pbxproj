@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		04E5030B229CB536000F9692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5030A229CB536000F9692 /* AppDelegate.swift */; };
 		04E50310229CB536000F9692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E5030E229CB536000F9692 /* Main.storyboard */; };
-		04E50313229CB536000F9692 /* Pain_Recorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E50311229CB536000F9692 /* Pain_Recorder.xcdatamodeld */; };
 		04E50315229CB539000F9692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E50314229CB539000F9692 /* Assets.xcassets */; };
 		04E50318229CB539000F9692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E50316229CB539000F9692 /* LaunchScreen.storyboard */; };
 		04E5034D22A037E6000F9692 /* PainButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5034C22A037E6000F9692 /* PainButtonViewController.swift */; };
 		04E5034F22A038B8000F9692 /* PainPointsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5034E22A038B8000F9692 /* PainPointsTableViewController.swift */; };
+		04E5035722A1B6A1000F9692 /* PainPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5035622A1B6A1000F9692 /* PainPoints.swift */; };
+		04E5035D22A1B86D000F9692 /* Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5035C22A1B86D000F9692 /* Reflection.swift */; };
 		233D99E79F286FF403FAA54F /* Pods_Pain_Recorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48CC76E3A287BC9289E8608 /* Pods_Pain_Recorder.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +22,13 @@
 		04E50307229CB536000F9692 /* Pain Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pain Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E5030A229CB536000F9692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E5030F229CB536000F9692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04E50312229CB536000F9692 /* Pain_Recorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pain_Recorder.xcdatamodel; sourceTree = "<group>"; };
 		04E50314229CB539000F9692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E50317229CB539000F9692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E50319229CB539000F9692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E5034C22A037E6000F9692 /* PainButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainButtonViewController.swift; sourceTree = "<group>"; };
 		04E5034E22A038B8000F9692 /* PainPointsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainPointsTableViewController.swift; sourceTree = "<group>"; };
+		04E5035622A1B6A1000F9692 /* PainPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainPoints.swift; sourceTree = "<group>"; };
+		04E5035C22A1B86D000F9692 /* Reflection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reflection.swift; sourceTree = "<group>"; };
 		946F51F04DAFE29161145C4B /* Pods-Pain Recorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pain Recorder.debug.xcconfig"; path = "Target Support Files/Pods-Pain Recorder/Pods-Pain Recorder.debug.xcconfig"; sourceTree = "<group>"; };
 		A892AAB87724F1A3247B77DA /* Pods-Pain Recorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pain Recorder.release.xcconfig"; path = "Target Support Files/Pods-Pain Recorder/Pods-Pain Recorder.release.xcconfig"; sourceTree = "<group>"; };
 		E48CC76E3A287BC9289E8608 /* Pods_Pain_Recorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pain_Recorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,18 +67,14 @@
 		04E50309229CB536000F9692 /* Pain Recorder */ = {
 			isa = PBXGroup;
 			children = (
-				04E5035322A1B14A000F9692 /* Supporting Files */,
+				04E5030A229CB536000F9692 /* AppDelegate.swift */,
 				04E5035222A1B142000F9692 /* Views */,
 				04E5035122A1B138000F9692 /* Data Model */,
 				04E5035022A1B127000F9692 /* Controllers */,
-				04E5030A229CB536000F9692 /* AppDelegate.swift */,
-				04E5030E229CB536000F9692 /* Main.storyboard */,
-				04E5034E22A038B8000F9692 /* PainPointsTableViewController.swift */,
-				04E5034C22A037E6000F9692 /* PainButtonViewController.swift */,
+				04E5035322A1B14A000F9692 /* Supporting Files */,
 				04E50314229CB539000F9692 /* Assets.xcassets */,
 				04E50316229CB539000F9692 /* LaunchScreen.storyboard */,
 				04E50319229CB539000F9692 /* Info.plist */,
-				04E50311229CB536000F9692 /* Pain_Recorder.xcdatamodeld */,
 			);
 			path = "Pain Recorder";
 			sourceTree = "<group>";
@@ -84,6 +82,8 @@
 		04E5035022A1B127000F9692 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				04E5034E22A038B8000F9692 /* PainPointsTableViewController.swift */,
+				04E5034C22A037E6000F9692 /* PainButtonViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -91,6 +91,8 @@
 		04E5035122A1B138000F9692 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
+				04E5035622A1B6A1000F9692 /* PainPoints.swift */,
+				04E5035C22A1B86D000F9692 /* Reflection.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -98,6 +100,7 @@
 		04E5035222A1B142000F9692 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04E5030E229CB536000F9692 /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,10 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E50313229CB536000F9692 /* Pain_Recorder.xcdatamodeld in Sources */,
 				04E5034F22A038B8000F9692 /* PainPointsTableViewController.swift in Sources */,
 				04E5034D22A037E6000F9692 /* PainButtonViewController.swift in Sources */,
 				04E5030B229CB536000F9692 /* AppDelegate.swift in Sources */,
+				04E5035D22A1B86D000F9692 /* Reflection.swift in Sources */,
+				04E5035722A1B6A1000F9692 /* PainPoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,19 +457,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		04E50311229CB536000F9692 /* Pain_Recorder.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				04E50312229CB536000F9692 /* Pain_Recorder.xcdatamodel */,
-			);
-			currentVersion = 04E50312229CB536000F9692 /* Pain_Recorder.xcdatamodel */;
-			path = Pain_Recorder.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 04E502FF229CB536000F9692 /* Project object */;
 }
