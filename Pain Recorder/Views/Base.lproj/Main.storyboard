@@ -112,16 +112,16 @@
             </objects>
             <point key="canvasLocation" x="638" y="804"/>
         </scene>
-        <!--Table View Controller-->
+        <!--reflections-->
         <scene sceneID="fZE-fl-AMe">
             <objects>
-                <tableViewController id="12R-BQ-LL0" sceneMemberID="viewController">
+                <tableViewController id="12R-BQ-LL0" customClass="ReflectionsTableViewController" customModule="Pain_Recorder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="r2Z-3o-K0r">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="MP7-do-ptd">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReflectionCell" id="MP7-do-ptd">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MP7-do-ptd" id="mjt-Wv-VMp">
@@ -135,6 +135,7 @@
                             <outlet property="delegate" destination="12R-BQ-LL0" id="bM7-O6-FcA"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="reflections" id="bvH-2C-EOn"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yTN-pW-ZX8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
